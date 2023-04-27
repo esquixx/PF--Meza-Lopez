@@ -1,0 +1,35 @@
+
+// mediaqueris de inicio
+
+@media (max-width: 600px) {
+    /* Imagen de inicio */
+h1{
+    color: blue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+h3{
+    background-color: rgb(143, 17, 17);
+    padding: 10px;
+    color: #58f24d;
+}
+}
+
+
+@media (max-width: 400px) {
+    /* Imagen de inicio */
+h1{
+    color: blue;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+h3{
+    background-color: rgb(143, 17, 17);
+    padding: 10px;
+    color: #58f24d;
+}
+}

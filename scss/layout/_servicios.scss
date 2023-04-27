@@ -1,0 +1,27 @@
+/* Servicios */
+.main_servicios {
+    background-color: rgb(0, 165, 16);
+    section {
+        display: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+        .caja {
+            border: 1px solid #c7a836;
+            background-color: #c7a836;
+            font-weight: bold;
+            width: 270px;
+            height: 312px;
+            line-height: 200x;
+            text-align: center;
+            margin: 40px;
+    
+        }
+            .h1 {
+                color: blue;
+                font-size: 75px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                padding: 30px 0 30px 0;
+}
+}
