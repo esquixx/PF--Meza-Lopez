@@ -1,5 +1,12 @@
 
 // mediaqueris de inicio
+@media (max-width: 800px) {
+    // porque elegirnos
+.main_porque {
+    display: grid;
+    place-items: center;
+    } 
+}
 
 @media (max-width: 600px) {
     /* Imagen de inicio */
@@ -15,7 +22,19 @@ h3{
     padding: 10px;
     color: #58f24d;
 }
+// porque elegirnos
+.main_porque {
+    display: grid;
+    place-items: center;
 }
+
+}
+
+
+
+
+
+
 
 
 @media (max-width: 400px) {
@@ -23,13 +42,60 @@ h3{
 h1{
     color: blue;
     font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     padding: 10px 0 10px 0;
 }
 h3{
     background-color: rgb(143, 17, 17);
     padding: 10px;
     color: #58f24d;
+}
+
+// preguntas
+.sub-preguntas {
+    color: #dc0000;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+}
+.parrafo {
+    font-size: 15px;
+    margin: 5px;
+    padding: 17px;
+    width: auto ;
+    height: 360x;
+    }
+    h3 {
+        font-size: 20px;
+    }
+//boton consultanos
+
+.boton-inicio {
+    color: #ffffff!important;
+    border-width: 3px!important;
+    border-color: #58f24d;
+    font-size: 45px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+// porque elegirnos
+.col {
+    background: linear-gradient(#2bff00,rgb(64, 119, 64));
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+}
+
+.porque-2 {
+    div {
+        text-align: center;
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+    }
 }
 }
