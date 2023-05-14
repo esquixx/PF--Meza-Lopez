@@ -25,7 +25,7 @@ body {
 .logo {
   display: inline-block;
   text-decoration: none;
-  color: rgb(0, 128, 36);
+  color: #c7a836;
   font-size: 60px;
   margin-left: 10px;
 }
@@ -463,13 +463,24 @@ textarea {
   padding-top: 15px;
 }
 
+@media (max-width: 1230px) {
+  .carousel-tex {
+    font-size: 20PX;
+  }
+}
 @media (max-width: 800px) {
+  .carousel-tex {
+    font-size: 15PX;
+  }
   .main_porque {
     display: grid;
     place-items: center;
   }
 }
 @media (max-width: 600px) {
+  .carousel-tex {
+    font-size: 10PX;
+  }
   /* Imagen de inicio */
   h1 {
     color: blue;
@@ -487,6 +498,48 @@ textarea {
     display: grid;
     place-items: center;
   }
+  .formula1 {
+    width: 380px;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+  .boton {
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 310px;
+  }
+  .boton2 {
+    font-size: 30px;
+  }
+  .formula2 {
+    font-size: 20px;
+  }
+  input {
+    width: 310px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  textarea {
+    width: 310px;
+    height: 150px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
 }
 @media (max-width: 400px) {
   /* Imagen de inicio */
@@ -499,6 +552,24 @@ textarea {
     background-color: rgb(143, 17, 17);
     padding: 10px;
     color: #58f24d;
+  }
+  .container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .container .portada-2 {
+    font-size: 10px;
+    background-color: #b9ad2d;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .imagen_inicio {
+    width: 200px;
+    height: 200px;
   }
   .sub-preguntas {
     color: #dc0000;
@@ -520,7 +591,7 @@ textarea {
     color: #ffffff !important;
     border-width: 3px !important;
     border-color: #58f24d;
-    font-size: 45px;
+    font-size: 30px;
     margin: 5px;
     padding: 5px;
     text-align: center;
@@ -539,6 +610,43 @@ textarea {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
+  }
+  .formula1 {
+    width: 250px;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+  .boton {
+    height: 40px;
+    width: 200px;
+  }
+  .boton2 {
+    font-size: 20px;
+  }
+  .formula2 {
+    font-size: 20px;
+  }
+  input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  textarea {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
   }
 }
 
